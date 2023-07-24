@@ -1,33 +1,34 @@
-This is second version of my portfolio. Built with Next.js, TypeScript, Tailwind CSS end shadcn/ui.
+# Portfolio
 
-## Getting Started
+My personal portfolio using Next.js 13
 
-First, run the development server:
+**Portfolio template.**
 
-```bash
+Feel free to clone this repo, enjoy this template.
+
+## Tech stack
+
+- Next.js 13
+- Tailwind CSS
+- Radix UI
+- shadcn/ui
+
+## Running Locally
+
+1. Install dependencies using npm/yarn/pnpm or whatever you using with:
+
+```sh
+npm install
+pnpm install
+yarn add
+```
+
+2. Start the development server:
+
+```sh
 npm run dev
-# or
-yarn dev
-# or
 pnpm dev
+yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Deployment
-
-Deploy to Firebase hosting:
-```bash
-npm run deploy
-```
-
-
-## TODO
-
-- Include rest of my projects
-- Add blog
-- Write short, descriptive posts about my projects (decision making, process, design, etc.)
+Congratulation your build your portfolio now
