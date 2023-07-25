@@ -6,7 +6,7 @@ export const adminPanel: ProjectType = {
     date: 'July 2023',
     description: 'An Admin panel for managing products and categories an ecommerce website',
     picture: '/admin-panel.png',
-    skills: ['Next.js', 'TypeScript', 'Tailwind', 'shadcn/ui', 'MongoDB', 'AWS S3', 'shadcn/ui'],
+    skills: ['Next.js', 'TypeScript', 'Tailwind', 'shadcn/ui', 'MongoDB', 'AWS S3'],
     links: [
         {
             title: 'Github',
