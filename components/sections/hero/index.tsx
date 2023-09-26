@@ -1,5 +1,10 @@
 import { EnvelopeClosedIcon, GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import { HeroButtonLink } from "./heroButtonLink";
+import Link from "next/link";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+import { ButtonIconLink } from "@/components/ui/buttonIconLink";
+import { NewspaperIcon } from "lucide-react";
 
 export const Hero = () => (
     <header className='flex flex-col h-screen relative'>
@@ -25,6 +30,15 @@ export const Hero = () => (
                     title="Email"
                     icon={<EnvelopeClosedIcon className="scale-200" />}
                 />
+            </div>
+            <div className="my-4">
+                <Link
+                    className={cn(buttonVariants({variant: 'outline'}),"px-14 py-3 h-min text-black")}
+                    href={'/blog'}
+                >
+                    <NewspaperIcon className='scale-100 mr-2' />
+                    <span>My Blog</span>
+                </Link>
             </div>
         </div>
     </header>

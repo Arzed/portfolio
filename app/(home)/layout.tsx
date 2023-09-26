@@ -17,10 +17,8 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="en" className='dark'>
-            <body className={cn(inter.className, 'bg-slate-200 text-black overflow-hidden')}>
-                {children}
-            </body>
-        </html>
+        <ScrollArea className='h-[100vh] w-full'>
+            {children}
+        </ScrollArea>
     )
 }
