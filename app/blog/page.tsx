@@ -21,7 +21,7 @@ export default function Blog() {
         <div className="fixed backdrop-blur-sm bg-slate-900/75 dark:bg-slate-100/75 z-50 top-0 left-0 right-0 py-2 border-b border-slate-700 dark:border-slate-300 shadow-sm items-center justify-between">
           <div className="flex h-16 items-center px-4">
             <Link href={'/'} className="flex gap-10 container">
-                <Image src={icon} alt="Logo" width={300} height={300} className="w-10" />
+                <Image src={'https://raw.githubusercontent.com/Arzed/portfolio/main/app/favicon.ico'} alt="Logo" width={300} height={300} className="w-10" />
             </Link>
             <div className="flex container items-center justify-end space-x-4">
                 <MainNav className="mx-6" />
