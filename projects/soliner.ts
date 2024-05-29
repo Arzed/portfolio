@@ -3,7 +3,7 @@ import { ProjectType } from ".";
 
 export const soliner: ProjectType = {
     title: 'Soliner',
-    date: 'Des 2023',
+    date: 'Des 2022',
     picture: '/soliner.png',
     description: 'An company profile website of PT.Soliner. Includes managing user form in contact page',
     skills: ['React', 'JavaScript', 'Bootstrap'],

@@ -1,13 +1,25 @@
-// import { BlogType } from ".";
+import { BlogContentType } from ".";
 
-// export const jaringankomputer: BlogType = {
-//     title: 'Memahami Jenis-Jenis Jaringan Pada Komputer',
-//     date: 'September 22, 2023',
-//     slug: 'jaringan-komputer',
-//     firstP: 'string',
-//     firstImg: 'string',
-//     secondP: 'string',
-//     secondImg: 'string',
-//     thirdImg: 'string',
-//     thirdP: 'string'   
-// }
+export const jaringankomputer: BlogContentType = {
+    title: 'Memahami Jenis-Jenis Jaringan Pada Komputer',
+    date: 'September 22, 2023',
+    slug: 'jaringan-komputer',
+    firstHeadline: 'Jaringan Komputer',
+    firstParagraph: ['Apa itu jaringan komputer?', 'Mungkin kalian pernah dengar istilah jaringan komputer, mari kita akan mengutip seputar tentang jaringan komputer', 'Secara harfiah Jaringan komputer adalah kumpulan perangkat keras (komputer, router, switch, dan lainnya) dan perangkat lunak (protokol, sistem operasi jaringan, aplikasi, dan lainnya) yang bekerja sama untuk menghubungkan komputer dan perangkat elektronik lainnya dalam suatu area tertentu.', 'Di pembahasan kali ini kita hanya akan membahas seputar jenis-jenis jaringan komputer yang terdiri dari:'],
+    list: ['PAN ( Personal Area Network )', 'LAN ( Local Area Network )', 'CAN ( Controller Area Network )', 'MAN ( Metropolitan Area Network )', 'WAN ( Wide Area Network )'],
+    secondHeadline: "PAN ( Personal Area Network )",
+    firstImg: ['/pan-foto.jpg'],
+    secondP: ['Seperti namanya PAN adalah jenis jaringan komputer yang bersifat personal atau mencakup area yang sangat terbatas, biasanya hanya mencakup jarak beberapa meter hingga beberapa puluh meter. PAN digunakan untuk menghubungkan perangkat elektronik pribadi, seperti komputer, smartphone, tablet, headset Bluetooth, printer, dan perangkat lainnya yang digunakan oleh satu individu atau dalam suatu ruangan atau area kecil'],
+    thirdHeadline: "PAN ( Personal Area Network )",
+    secondImg: ['/LAN.jpg'],
+    thirdP: ['Local Area Network (LAN) adalah jaringan komputer yang mencakup area geografis terbatas, seperti sebuah kantor, gedung, sekolah, atau rumah. LAN dirancang untuk menghubungkan perangkat-perangkat komputer dan sumber daya bersama di dalam area yang relatif kecil'],
+    fourHeadline: 'CAN ( Campus Area Network )',
+    thirdImg: ['/can-2.png'],
+    fourP: ['Campus Area Network (CAN) adalah jenis jaringan komputer yang dirancang untuk menghubungkan berbagai bangunan atau fasilitas di suatu lokasi geografis yang terbatas akan tetapi sedikit lebih luas di bandingkan local area network ( LAN ), seperti sebuah kampus universitas, perusahaan, atau lembaga pendidikan. akan CAN tetapi lebih kecil daripada Metropolitan Area Network (MAN).'],
+    fifthHeadline: 'MAN ( Metropolitan Area Network )',
+    fourImg: ['/man.jpeg'],
+    fifthP: ['Metropolitan Area Network (MAN) adalah jenis jaringan komputer yang mencakup area geografis yang lebih besar daripada Local Area Network (LAN) tetapi lebih kecil daripada Wide Area Network (WAN). MAN dirancang untuk menghubungkan beberapa LAN yang terletak dalam suatu kota atau wilayah metropolitan tertentu. Ini memungkinkan organisasi dan lembaga yang memiliki beberapa lokasi atau cabang di dalam kota atau wilayah metropolitan untuk berbagi sumber daya dan informasi dengan lebih efisien.'],
+    sixHeadline: 'WAN ( Wide Area Network )',
+    fifthImg: ['/wan.png'],
+    sixP: ['Wide Area Network (WAN) adalah jaringan komputer yang menghubungkan komputer dan perangkat jaringan yang terletak pada lokasi geografis yang berjauhan. WAN dirancang untuk menghubungkan area yang luas, seperti kota, negara bagian, negara, atau bahkan benua yang berbeda. WAN memungkinkan organisasi atau individu untuk mengirim dan menerima data, pesan, dan informasi antar lokasi yang terpisah dengan menggunakan berbagai teknologi komunikasi, termasuk kabel, serat optik, radio gelombang mikro, satelit, dan lainnya'],
+}

@@ -31,7 +31,7 @@ export const Hero = () => (
                     icon={<EnvelopeClosedIcon className="scale-200" />}
                 />
             </div>
-            <div className="my-4">
+            {/* <div className="my-4">
                 <Link
                     className={cn(buttonVariants({variant: 'outline'}),"px-14 py-3 h-min text-black")}
                     href={'/blog'}
@@ -39,7 +39,7 @@ export const Hero = () => (
                     <NewspaperIcon className='scale-100 mr-2' />
                     <span>My Blog</span>
                 </Link>
-            </div>
+            </div> */}
         </div>
     </header>
 )

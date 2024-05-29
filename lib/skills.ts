@@ -13,15 +13,16 @@ type SkillType = 'JavaScript'
     | 'shadcn/ui'
     | 'CSS'
     | 'Bootstrap'
-
+    
     | 'Jest'
-
+    
     | 'MySQL'
     | 'MongoDB'
-    | 'SQLite'
+    | 'PostgreSQL'
     | 'Prisma'
-
+    
     | 'Docker'
     | 'NPM Package'
     | 'Pusher'
     | 'AWS S3'
+    | 'Uploadthing'

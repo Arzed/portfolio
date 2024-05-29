@@ -2,6 +2,7 @@ import { soliner } from "./soliner"
 import { dummyJSON } from "./dummyJSON"
 import { portfolio } from "./portfolio"
 import { adminPanel } from "./adminPanel"
+import { foodStoreApp } from "./foodStoreApp"
 
 export type ProjectType = {
     title: string,
@@ -20,8 +21,9 @@ export type LinkType = {
 
 
 export const projectsList = [
-    adminPanel,
-    dummyJSON,
+    foodStoreApp,
     portfolio,
+    dummyJSON,
+    adminPanel,
     soliner,
 ]

@@ -1,5 +1,6 @@
-// import { jaringankomputer } from "./jaringanKomputer"
+import { jaringankomputer } from "./jaringanKomputer"
 import { networking } from "./networking"
+import { test } from "./test"
 
 export type CategoryType = {
     title: string,
@@ -9,16 +10,28 @@ export type CategoryType = {
     href: string
 }
 
-export type BlogType = {
+export type BlogContentType = {
     title: string,
     date: string,
     slug: string,
-    firstP: string,
-    firstImg: string,
-    secondP: string,
-    secondImg: string,
-    thirdImg: string,
-    thirdP: string
+    firstHeadline: string,
+    firstParagraph: [string, string?, string?, string?],
+    list?: [string, string, string?, string?, string?],
+    secondHeadline: string,
+    firstImg: [string, string?],
+    secondP: [string, string?, string?, string?],
+    thirdHeadline: string,
+    secondImg: [string, string?],
+    thirdP: [string, string?, string?, string?]
+    fourHeadline?: string,
+    thirdImg?: [string, string?],
+    fourP?: [string],
+    fifthHeadline?: string,
+    fourImg?: [string, string?],
+    fifthP?: [string, string?, string?, string?],
+    sixHeadline?: string,
+    fifthImg?: [string, string?],
+    sixP?: [string, string?, string?, string?],
 }
 
 export const BlogCategoryType = [
@@ -60,6 +73,7 @@ export const BlogList = [
     networking,
 ]
 
-// export const BlogContent = [
-//     jaringankomputer,
-// ]
+export const BlogContent = [
+    jaringankomputer,
+    test,
+]
