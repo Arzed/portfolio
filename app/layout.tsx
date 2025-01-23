@@ -1,26 +1,45 @@
-import { cn } from '@/lib/utils'
-import '@/app/globals.css'
-import { Inter, } from 'next/font/google'
-import { Metadata } from 'next'
-import { ScrollArea } from '@/components/ui/scroll-area'
+import "@/app/globals.css";
+import { WEBSITE_HOST_URL } from "@/lib/constants";
+import { Metadata } from "next";
 
-const inter = Inter({ subsets: ['latin'] })
+const meta = {
+  title: "Arzed",
+  description:
+    "Student from Indonesia University. Frontend Developer. Cat Lover",
+};
 
 export const metadata: Metadata = {
-    title: 'Arzed | Frontend web developer',
-    description: "Don't Forget to sleep",
-}
+  title: {
+    default: meta.title,
+    template: "%s | Arzed",
+  },
+  description: meta.description,
+  openGraph: {
+    title: meta.title,
+    description: meta.description,
+    url: WEBSITE_HOST_URL,
+    siteName: meta.title,
+    locale: "id-ID",
+    type: "website",
+  },
+  twitter: {
+    title: meta.title,
+    description: meta.description,
+    card: "summary_large_image",
+  },
+  alternates: {
+    canonical: WEBSITE_HOST_URL,
+  },
+};
 
 export default function RootLayout({
-    children,
+  children,
 }: {
-    children: React.ReactNode
+  children: React.ReactNode;
 }) {
-    return (
-        <html lang="en" className='dark'>
-            <body className={cn(inter.className, 'bg-slate-200 text-black overflow-hidden')}>
-                {children}
-            </body>
-        </html>
-    )
+  return (
+    <html lang="en" className="dark">
+      <body>{children}</body>
+    </html>
+  );
 }

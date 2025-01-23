@@ -8,9 +8,9 @@ type ProjectHeaderProps = {
 export const ProjectHeader = ({ title, date }: ProjectHeaderProps) => {
     return (
         <header className="flex gap-4 items-center">
-            <CardTitle className="text-black">{title}</CardTitle>
+            <CardTitle>{title}</CardTitle>
             <Separator orientation="vertical" className="h-8" />
-            <span className="text-black">{date}</span>
+            <span>{date}</span>
         </header>
     )
 }

@@ -18,12 +18,12 @@ const SkillBadge = ({ skill }: SkillBadgeProps) => {
 export const ProjectCard = ({ title, date, description, links, skills, picture }: ProjectType) => {
     return (
         <Card className='max-w-md md:max-w-xl w-full relative shadow-transparent shadow-xl h-fit
-        hover:bg-slate-300/20 hover:shadow-slate-300/30 transition ease-in
-        after:h-20 after:w-px after:absolute after:-left-px after:top-3/4 after:opacity-0 after:bg-gradient-to-b after:from-transparent after:via-green-900/80 after:to-transparent
+        hover:shadow-slate-300/30 dark:hover:shadow-slate-800/30 transition ease-in
+        after:h-20 after:w-px after:absolute after:-left-px after:top-3/4 after:opacity-0 after:bg-gradient-to-b after:from-transparent after:via-green-400 after:to-transparent
         hover:after:top-[.2rem] hover:after:opacity-100
         after:transition-all after:duration-700 after:ease-in-out
         lg:group-hover/list:opacity-60
-        lg:hover:!opacity-100 bg-slate-200 border-slate-300
+        lg:hover:!opacity-100 bg-slate-200 dark:bg-slate-900 border-slate-300 dark:border-slate-700
         '>
             <CardHeader>
                 <ProjectHeader
