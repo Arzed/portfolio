@@ -1,6 +1,6 @@
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { ProjectType } from ".";
-import picture from "../public/ARBird.jpg";
+import picture from "../public/ARBird.webp";
 
 export const arBird: ProjectType = {
   title: "AR Bird",
