@@ -20,9 +20,9 @@ export const Hero = () => (
       <h1 className="text-6xl sm:text-8xl font-black">I&apos;m Arzed</h1>
       <h2 className="text-4xl sm:text-6xl my-4 font-bold">
         <span className="from-green-500 via-cyan-400 to-blue-400 bg-[length:200%] hover:bg-right transition-all duration-500 bg-gradient-to-r bg-clip-text text-transparent">
-          Frontend
+          Software
         </span>{" "}
-        <span className="whitespace-nowrap">web-developer</span>
+        <span className="whitespace-nowrap">developer</span>
       </h2>
       <div className="flex gap-4 justify-center mt-5">
         <HeroButtonLink

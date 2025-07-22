@@ -12,6 +12,11 @@ import { TailwindLogo } from "@/components/icons/tailwind";
 import { ShadcnUILogo } from "@/components/icons/shadcnui";
 import { TypeScriptLogo } from "@/components/icons/typescript";
 import { AccordionTech } from "./accordionTech";
+import { DartLogo } from "@/components/icons/dart";
+import { FlutterLogo } from "@/components/icons/flutter";
+import { CPPLogo } from "@/components/icons/cpp";
+import { OpenAILogo } from "@/components/icons/openai";
+import { UnityLogo } from "@/components/icons/unity";
 
 export const TechStack = () => {
   return (
@@ -24,16 +29,41 @@ export const TechStack = () => {
           targets so it can run anywhere JavaScript runs
         </AccordionTech>
 
+        <AccordionTech icon={DartLogo} label="Dart">
+          Adds additional syntax to JavaScript. With types we can catch errors
+          as early as in editor to waste no time bug-hunting. Converts to many
+          targets so it can run anywhere JavaScript runs
+        </AccordionTech>
+
+        <AccordionTech icon={CPPLogo} label="C++">
+          Adds additional syntax to JavaScript. With types we can catch errors
+          as early as in editor to waste no time bug-hunting. Converts to many
+          targets so it can run anywhere JavaScript runs
+        </AccordionTech>
+
         <AccordionTech icon={ReactLogo} label="React">
           One of the most popular libraries for building front end web
           applications. It has big community that creates additional libraries
           to make web better
         </AccordionTech>
 
+
         <AccordionTech icon={NextLogo} label="Next.js">
           Framework for building full-stack webapps that comes with latest
           features and many useful tools out of the box. It provides excellent
           performance and fast build times
+        </AccordionTech>
+
+        <AccordionTech icon={FlutterLogo} label="Flutter">
+          One of the most popular libraries for building front end web
+          applications. It has big community that creates additional libraries
+          to make web better
+        </AccordionTech>
+
+        <AccordionTech icon={UnityLogo} label="Unity">
+          One of the most popular libraries for building front end web
+          applications. It has big community that creates additional libraries
+          to make web better
         </AccordionTech>
 
         <AccordionTech icon={BootstrapLogo} label="Bootstrap">
@@ -47,6 +77,12 @@ export const TechStack = () => {
         </AccordionTech>
 
         <AccordionTech icon={ShadcnUILogo} label="shadcn/ui">
+          Collection of components built on top accessible and unstyled
+          primitives from Radix UI. Integrated with Tailwind CSS to provide
+          support for React Server Components
+        </AccordionTech>
+
+        <AccordionTech icon={OpenAILogo} label="OpenAI">
           Collection of components built on top accessible and unstyled
           primitives from Radix UI. Integrated with Tailwind CSS to provide
           support for React Server Components
